@@ -1,4 +1,4 @@
-FROM python:slim
+FROM dhi.io/python:3.15-debian13-sfw-ent-dev
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
